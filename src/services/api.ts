@@ -3,7 +3,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import { navigationRef } from '../navigation/navRef';
 
 // Production backend (Render).
-export const BACKEND_BASE = 'https://karmacoin-backend-productionn.onrender.com';
+export const BACKEND_BASE = 'https://karmacoin-backend-testing.onrender.com';
 const BASE_URL = BACKEND_BASE;
 
 const api = axios.create({
